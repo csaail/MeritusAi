@@ -1,0 +1,49 @@
+{
+  "name": "NXGBlocks",
+  "version": "1.0.0",
+  "description": "Block Programming Interface For NXG Drone",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "NXGBlocks",
+    "Drona Aviation",
+    "Pluto",
+    "PlutoX",
+    "Block Programming"
+  ],
+  "author": "Meritus AI",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "dialogs": "^2.0.1",
+    "electron-default-menu": "^1.0.1",
+    "jquery": "^3.4.1",
+    "jquery-ui-dist": "^1.12.1",
+    "pure-css-loader": "^3.3.3",
+    "spin.js": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.meritusai.nxgblock",
+    "productName": "NXGBlock",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "public/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "app_icon.ico"
+    }
+  }
+}
+
+

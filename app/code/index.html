@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="google" value="notranslate">
+  <title>NXGBlocks V1.0</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css-loader.css">
+  <link rel="stylesheet" type="text/css" href="loading-bar.css"/>
+  <link rel="stylesheet" href="assets/fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/cssprogress.css">
+  <script type="text/javascript" src="loading-bar.js"></script>
+  <script>var $ = jQuery = require('jquery')
+ 			    require('jquery-ui-dist/jquery-ui')</script>
+  <script src="../blockly_compressed.js"></script>
+  <script src="../blocks_compressed.js"></script>
+  <script src="../javascript_compressed.js"></script>
+  <script src="../python_compressed.js"></script>
+  <script src="../php_compressed.js"></script>
+  <script src="../lua_compressed.js"></script>
+  <script src="../dart_compressed.js"></script>
+  <script src="../cake_compressed.js"></script>
+  <script src="./js/hex_parser.js"></script>
+  <script src="./js/stm32.js"></script>
+  <script src="./js/at.js"></script>
+  <script src="./js/socket.js"></script>
+  <script src="./js/communication.js"></script>
+  <script src="./js/console_data_handler.js"></script>
+  <script src="./code.js"></script>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="modal">
+        <tr>
+            <td>
+              <h1>Flashing Firmware.....
+              </h1>
+            </td>
+          </tr>
+        <div class="cssProgress">
+            <div class="progress2">
+              <div class="cssProgress-bar  cssProgress-active" data-percent="0" style="width: 0%;">
+              </div>
+             </div>
+            <div class="cssProgress-label2 cssProgress-label2-right">0%</div>
+          </div>
+        </div>
+        <div class="modal1">
+             <p style="font-size:20px;">
+               Please make sure you are disconnected from Controller App before flashing firmware
+             </p>
+             <button id="confirm-button">OK</button>
+             <br><br>
+             <input type="checkbox" id=notAgain name="appWarning"> Do not show this message again<br>
+
+      </div>
+  <div id = "container" style = "width:100%;">
+      <div id ="left" style = "float:left; width: 25%; vertical-align: middle;">
+        <p style="margin-left: 16px;">
+          <button id="homeButton">
+            <b>HOME</b>
+          </button>
+      </p>
+      </div>
+      <div id = "middle" style = "float:left; width: 50%;">
+        <p style = "text-align:center">
+          <b id="project_name">New Project</b>
+          <button id="saveButton" class="notext" title="rename project">
+                <img src='../media/ic_edit_24dp.png' width="18" height="18">
+          </button>
+        </p>
+      </div>
+      <div id ="right" class= "pluto_logo_div">
+        <p>
+          <img class="pluto_logo1" src = "../media/Picture1.png" width="160">
+        </p>
+      </div>
+  </div>
+
+  <table width="100%" height= '100%' id="tableBlocks">
+      <td colspan=2>
+        <table width="100%">
+          <tr id="tabRow" height="1em">
+            <td id="tab_blocks" class="tabon">Blocks</td>
+            <td class="tabmin">&nbsp;</td>
+            <td id="tab_cake" class="taboff">C++</td>
+            <td class="tabmin">&nbsp;</td>
+            <td class="tabmax">
+              <button id="buildButton" class="notext" title="build">
+                    <img src='../media/build_icon.png' width="21" height="21">
+              </button>
+              <button id="flashButton" class="notext" title="flash">
+                    <img src='../media/flash_icon.png' width="21" height="21">
+              </button>
+              <button id="connectButton" class="notext" title="connect Drone">
+                <img id= "connectImage" src='../media/ic_connect.png' width="21" height="21">
+              </button>
+              <button id="trashButton" class="notext" title="delete blocks">
+                <img src='../media/1x1.gif' class="trash icon21">
+              </button>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="96%" colspan=2 id="content_area">
+      </td>
+    </tr>
+  </table>
+  <div id="content_blocks" class="content">
+  </div>
+  <pre id="content_cake" class="content prettyprint lang-cake"></pre>
+
+
+  <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="LED" colour="165">
+      <block type = "red_led">
+      </block>
+      <block type = "green_led">
+      </block>
+      <block type = "blue_led">
+      </block>
+    </category>
+    <category name="GPIO" colour="400">
+      <block type = "Pin_10">
+        </block>
+        <block type = "gpio_read">
+          </block>
+          <block type = "adc_read">
+          </block> 
+    </category>
+    <category name="PWM" colour="120">
+      <block type = "set_servo">
+        <value name="pwm">
+          <shadow type="servo_pwm">
+            <field name="pwm">1000</field>
+          </shadow>
+        </value>
+      </block>
+    </category>
+    <category name="Command" colour="0">
+      <block type = "take_off">
+      </block>
+      <block type = "land">
+      </block>
+      <block type = "flip">
+      </block>
+      <block type = "arm">
+      </block>
+      <block type = "disarm">
+      </block>
+    </category>
+    <category name="Motor" colour="120">
+      <block type = "set_m5">
+        <value name="pwm">
+          <shadow type="motor_pwm">
+            <field name="pwm">1000</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "set_m6">
+        <value name="pwm">
+          <shadow type="motor_pwm">
+            <field name="pwm">1000</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "set_m7">
+        <value name="pwm">
+          <shadow type="motor_pwm">
+            <field name="pwm">1000</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "set_m8">
+        <value name="pwm">
+          <shadow type="motor_pwm">
+            <field name="pwm">1000</field>
+          </shadow>
+        </value>
+      </block>
+    </category>
+    <category name="Timer" colour="50" custom="TIMER"></category>
+    <category name="Remote Control" colour="330">
+      <block type = "rc_roll">
+      </block>
+      <block type = "rc_pitch">
+      </block>
+      <block type = "rc_yaw">
+      </block>
+      <block type = "rc_throttle">
+      </block>
+      <block type = "set_pitch">
+        <value name="rcValue">
+          
+          <shadow type="rc_set">
+            <field name="rcValue">1000</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "set_roll">
+        <value name="rcValue">
+          <shadow type="rc_set">
+            <field name="rcValue">1000</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "set_yaw">
+        <value name="rcValue">
+          <shadow type="rc_set">
+            <field name="rcValue">1000</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "set_throttle">
+        <value name="rcValue">
+          <shadow type="rc_set">
+            <field name="rcValue">1000</field>
+          </shadow>
+        </value>
+      </block>
+    </category>
+    <category name="Sensor" colour="240">
+      <block type = "get_acc">
+      </block>
+      <block type = "get_gyroscope">
+      </block>
+      <block type = "get_mag">
+      </block>
+      <block type = "get_baro">
+      </block>
+    </category>
+    <category name="Current State" colour="270">
+      <block type = "current_roll">
+      </block>
+      <block type = "current_pitch">
+      </block>
+      <block type = "current_yaw">
+      </block>
+      <block type = "current_height">
+      </block>
+      <block type = "app_heading">
+
+      </block>
+    </category>
+    <category name="Desired State" colour="165">
+      <block type = "desired_roll">
+        <value name="roll_value">
+          <shadow type="field_angle_roll">
+            <field name="angle_field">0</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "desired_pitch">
+        <value name="pitch_value">
+          <shadow type="field_angle_pitch">
+            <field name="angle_field">0</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "desired_yaw">
+        <value name="yaw_value">
+          <shadow type="field_angle_yaw">
+            <field name="angle_field">0</field>
+          </shadow>
+        </value>
+      </block>
+      <block type = "desired_height">
+        <value name="height">
+          <shadow type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+      </block>
+    </category>
+    <category name="Flight Mode" colour="90">
+      <block type = "is_headfree">
+      </block>
+      <block type = "is_throttle_mode">
+      </block>
+    </category>
+    <category name="Flight Status" colour="45">
+      <block type="is_armed"></block>
+      <block type="is_ok_to_arm"></block>
+      <block type="is_signal_loss"></block>
+      <block type="is_crashed"></block>
+      <block type="is_inflight_low_battery"></block>
+      <block type="is_low_battery"></block>
+    </category>
+    <category name="Console" colour="300">
+        <block type = "pluto_monitor_print">
+          <value name="TEXT0">
+            <shadow type="pluto_monitor_print_text_shadow">
+              <field name="TEXT"></field>
+            </shadow>
+          </value>
+        </block>
+        <block type = "pluto_monitor_print_var">
+          <value name="TEXT0">
+            <shadow type="pluto_monitor_print_text_shadow">
+              <field name="TEXT">TEXT</field>
+            </shadow>
+          </value>
+        </block>
+      </category>
+    <category name="%{BKY_CATLOGIC}" colour="%{BKY_LOGIC_HUE}">
+      <block type="controls_if"></block>
+      <block type="logic_compare"></block>
+      <block type="logic_operation"></block>
+      <block type="logic_negate"></block>
+      <block type="logic_boolean"></block>
+      <block type="logic_null"></block>
+      <block type="logic_ternary"></block>
+    </category>
+    <category name="%{BKY_CATLOOPS}" colour="%{BKY_LOOPS_HUE}">
+      <block type="controls_repeat_ext">
+        <value name="TIMES">
+          <shadow type="math_number">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="controls_whileUntil"></block>
+      <block type="controls_for">
+        <value name="FROM">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+        <value name="BY">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="controls_flow_statements"></block>
+    </category>
+    <category name="%{BKY_CATMATH}" colour="%{BKY_MATH_HUE}">
+      <block type="math_number">
+        <field name="NUM">123</field>
+      </block>
+      <block type="math_arithmetic">
+        <value name="A">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="B">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_single">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">9</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_trig">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">45</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_constant"></block>
+      <block type="math_number_property">
+        <value name="NUMBER_TO_CHECK">
+          <shadow type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_round">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">3.1</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_modulo">
+        <value name="DIVIDEND">
+          <shadow type="math_number">
+            <field name="NUM">64</field>
+          </shadow>
+        </value>
+        <value name="DIVISOR">
+          <shadow type="math_number">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_constrain">
+        <value name="VALUE">
+          <shadow type="math_number">
+            <field name="NUM">50</field>
+          </shadow>
+        </value>
+        <value name="LOW">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="HIGH">
+          <shadow type="math_number">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_random_int">
+        <value name="FROM">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_random_float"></block>
+      <block type="math_atan2">
+        <value name="X">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="Y">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+    </category>
+    <category name="%{BKY_CATVARIABLES}" colour="%{BKY_VARIABLES_HUE}" custom="VARIABLE"></category>
+    <category>
+      <block type="HELP">
+
+      </block>
+    </category>
+  </xml>
+
+  <div id="log">
+
+      <div id="scrollicon"></div>
+      <div class="wrapper" id="wrapperLog" >
+          <p> Connect Drone to view the console data... </p>
+      </div>
+  </div>
+
+  <div id="logswitch">
+      <a href="#" id="showlog" onclick='toggleLogView()'>Show Log</a>
+  </div>
+
+</body>
+</html>

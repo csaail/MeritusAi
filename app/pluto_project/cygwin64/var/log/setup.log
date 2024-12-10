@@ -1,0 +1,1342 @@
+2019/09/17 12:09:47 Starting cygwin install, version 2.876
+2019/09/17 12:09:47 User has backup/restore rights
+2019/09/17 12:09:47 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2019/09/17 12:09:47 Current Directory: C:\Users\Drona\Downloads
+2019/09/17 12:09:47 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/09/17 12:09:49 source: network install
+2019/09/17 12:09:53 root: E:\Krishna\cygwin64 system
+2019/09/17 12:09:54 Selected local directory: C:\Users\Drona\Downloads
+2019/09/17 12:09:56 net: Direct
+2019/09/17 12:09:59 site: http://mirrors.metapeer.com/cygwin/
+2019/09/17 12:09:59 Can't resolve `mirrors.metapeer.com'
+2019/09/17 12:10:07 mbox note: Unable to get http://mirrors.metapeer.com/cygwin/x86_64/setup.xz.sig from <http://mirrors.metapeer.com/cygwin/>
+2019/09/17 12:10:22 mbox note: Unable to get setup from <http://mirrors.metapeer.com/cygwin/>
+2019/09/17 12:10:23 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2019/09/17 12:10:25 site: http://mirrors.metapeer.com/cygwin/
+2019/09/17 12:10:28 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2019/09/17 12:10:31 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2019/09/17 12:10:31 mbox note: This setup is version 2.876, but setup.ini claims version 2.897 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2019/09/17 12:15:00 Adding required dependency bzip2: Selecting version 1.0.8-1 for installation.
+2019/09/17 12:15:00 Adding required dependency ca-certificates: Selecting version 2.32-1 for installation.
+2019/09/17 12:15:00 Adding required dependency groff: Selecting version 1.22.4-1 for installation.
+2019/09/17 12:15:00 Adding required dependency less: Selecting version 530-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libargp: Selecting version 20110921-3 for installation.
+2019/09/17 12:15:00 Adding required dependency libattr1: Selecting version 2.4.48-2 for installation.
+2019/09/17 12:15:00 Adding required dependency libblkid1: Selecting version 2.33.1-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libbz2_1: Selecting version 1.0.8-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libcrypt0: Selecting version 2.1-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libfdisk1: Selecting version 2.33.1-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libffi6: Selecting version 3.2.1-2 for installation.
+2019/09/17 12:15:00 Adding required dependency libgc1: Selecting version 8.0.4-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libgc2: Selecting version 7.6.2-3 for installation.
+2019/09/17 12:15:00 Adding required dependency libgcc1: Selecting version 7.4.0-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libgdbm4: Selecting version 1.13-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libgmp10: Selecting version 6.1.2-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libguile17: Selecting version 1.8.8-3 for installation.
+2019/09/17 12:15:00 Adding required dependency libguile2.0_22: Selecting version 2.0.14-3 for installation.
+2019/09/17 12:15:00 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
+2019/09/17 12:15:00 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
+2019/09/17 12:15:00 Adding required dependency libintl8: Selecting version 0.19.8.1-2 for installation.
+2019/09/17 12:15:00 Adding required dependency libltdl7: Selecting version 2.4.6-7 for installation.
+2019/09/17 12:15:00 Adding required dependency liblzma5: Selecting version 5.2.4-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libmpfr6: Selecting version 4.0.2-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libncursesw10: Selecting version 6.1-1.20190727 for installation.
+2019/09/17 12:15:00 Adding required dependency libp11-kit0: Selecting version 0.23.15-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libpcre1: Selecting version 8.43-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libpipeline1: Selecting version 1.5.1-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libpopt-common: Selecting version 1.16-2 for installation.
+2019/09/17 12:15:00 Adding required dependency libpopt0: Selecting version 1.16-2 for installation.
+2019/09/17 12:15:00 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
+2019/09/17 12:15:00 Adding required dependency libsmartcols1: Selecting version 2.33.1-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libstdc++6: Selecting version 7.4.0-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libtasn1_6: Selecting version 4.14-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libunistring2: Selecting version 0.9.10-1 for installation.
+2019/09/17 12:15:00 Adding required dependency libuuid1: Selecting version 2.33.1-1 for installation.
+2019/09/17 12:15:00 Adding required dependency p11-kit: Selecting version 0.23.15-1 for installation.
+2019/09/17 12:15:00 Adding required dependency p11-kit-trust: Selecting version 0.23.15-1 for installation.
+2019/09/17 12:15:00 Adding required dependency terminfo-extra: Selecting version 6.1-1.20190727 for installation.
+2019/09/17 12:15:00 Adding required dependency tzcode: Selecting version 2019c-1 for installation.
+2019/09/17 12:15:00 Adding required dependency xz: Selecting version 5.2.4-1 for installation.
+2019/09/17 12:15:00 Adding required dependency zlib0: Selecting version 1.2.11-1 for installation.
+2019/09/17 12:15:01 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2019/09/17 12:15:02 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2019/09/17 12:15:03 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2019/09/17 12:15:04 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2019/09/17 12:15:09 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2019/09/17 12:15:10 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2019/09/17 12:15:12 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2.32-1.tar.xz
+2019/09/17 12:15:20 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2019/09/17 12:15:21 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2019/09/17 12:15:22 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2019/09/17 12:15:24 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.0.7-1.tar.xz
+2019/09/17 12:15:25 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2019/09/17 12:15:27 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2019/09/17 12:15:28 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2019/09/17 12:15:29 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/file/file-5.32-1.tar.xz
+2019/09/17 12:15:30 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2019/09/17 12:15:32 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.0.1-1.tar.xz
+2019/09/17 12:15:33 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2019/09/17 12:15:34 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2019/09/17 12:15:38 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2019/09/17 12:15:39 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2019/09/17 12:15:40 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2019/09/17 12:15:43 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.6-1.tar.xz
+2019/09/17 12:15:43 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2019/09/17 12:15:45 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/less/less-530-1.tar.xz
+2019/09/17 12:15:46 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2019/09/17 12:15:47 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2019/09/17 12:15:48 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-1.tar.xz
+2019/09/17 12:15:49 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2019/09/17 12:15:50 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
+2019/09/17 12:15:52 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-1.tar.xz
+2019/09/17 12:15:53 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2019/09/17 12:15:54 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-8.0.4-1.tar.xz
+2019/09/17 12:15:56 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libgc/libgc2/libgc2-7.6.2-3.tar.xz
+2019/09/17 12:15:56 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+2019/09/17 12:15:57 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.13-1.tar.xz
+2019/09/17 12:15:59 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2019/09/17 12:16:03 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/guile1.8/libguile17/libguile17-1.8.8-3.tar.xz
+2019/09/17 12:16:06 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/guile2.0/libguile2.0_22/libguile2.0_22-2.0.14-3.tar.xz
+2019/09/17 12:16:07 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2019/09/17 12:16:09 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2019/09/17 12:16:10 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2019/09/17 12:16:10 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libtool/libltdl7/libltdl7-2.4.6-7.tar.xz
+2019/09/17 12:16:12 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2019/09/17 12:16:13 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.2-1.tar.xz
+2019/09/17 12:16:15 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2019/09/17 12:16:17 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.15-1.tar.xz
+2019/09/17 12:16:19 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.43-1.tar.xz
+2019/09/17 12:16:20 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.1-1.tar.xz
+2019/09/17 12:16:21 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2019/09/17 12:16:22 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2019/09/17 12:16:23 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2019/09/17 12:16:24 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2019/09/17 12:16:25 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-1.tar.xz
+2019/09/17 12:16:30 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1d-1.tar.xz
+2019/09/17 12:16:31 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-7.4.0-1.tar.xz
+2019/09/17 12:16:32 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2019/09/17 12:16:33 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2019/09/17 12:16:34 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-1.tar.xz
+2019/09/17 12:16:35 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2019/09/17 12:16:36 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/make/make-4.2.1-2.tar.xz
+2019/09/17 12:16:39 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2019/09/17 12:16:40 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.0.2-1.tar.xz
+2019/09/17 12:16:41 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2019/09/17 12:16:47 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1d-1.tar.xz
+2019/09/17 12:16:48 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.15-1.tar.xz
+2019/09/17 12:16:50 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.15-1.tar.xz
+2019/09/17 12:16:52 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2019/09/17 12:16:53 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2019/09/17 12:16:54 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2019/09/17 12:16:55 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2019/09/17 12:16:57 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2019/09/17 12:16:59 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2019/09/17 12:17:00 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2019c-1.tar.xz
+2019/09/17 12:17:03 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2019c-1.tar.xz
+2019/09/17 12:17:09 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-1.tar.xz
+2019/09/17 12:17:13 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.1.1772-1.tar.xz
+2019/09/17 12:17:14 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2019/09/17 12:17:15 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2019/09/17 12:17:16 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2019/09/17 12:17:19 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2019/09/17 12:17:19 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2019/09/17 12:17:19 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2019/09/17 12:17:19 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2019/09/17 12:17:19 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2019/09/17 12:17:20 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2019/09/17 12:17:20 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2.32-1.tar.xz
+2019/09/17 12:17:20 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.0.7-1.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/file/file-5.32-1.tar.xz
+2019/09/17 12:17:21 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2019/09/17 12:17:22 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.0.1-1.tar.xz
+2019/09/17 12:17:22 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2019/09/17 12:17:22 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2019/09/17 12:17:23 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.6-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/less/less-530-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-8.0.4-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libgc/libgc2/libgc2-7.6.2-3.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.13-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2019/09/17 12:17:24 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/guile1.8/libguile17/libguile17-1.8.8-3.tar.xz
+2019/09/17 12:17:25 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/guile2.0/libguile2.0_22/libguile2.0_22-2.0.14-3.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libtool/libltdl7/libltdl7-2.4.6-7.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.2-1.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.15-1.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.43-1.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.1-1.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-1.tar.xz
+2019/09/17 12:17:26 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1d-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-7.4.0-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/make/make-4.2.1-2.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2019/09/17 12:17:27 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.0.2-1.tar.xz
+2019/09/17 12:17:28 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2019/09/17 12:17:28 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1d-1.tar.xz
+2019/09/17 12:17:28 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.15-1.tar.xz
+2019/09/17 12:17:28 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.15-1.tar.xz
+2019/09/17 12:17:28 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2019/09/17 12:17:29 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2019/09/17 12:17:29 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2019/09/17 12:17:29 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2019/09/17 12:17:29 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2019/09/17 12:17:29 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2019/09/17 12:17:36 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2019c-1.tar.xz
+2019/09/17 12:17:36 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2019c-1.tar.xz
+2019/09/17 12:17:39 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-1.tar.xz
+2019/09/17 12:17:39 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.1.1772-1.tar.xz
+2019/09/17 12:17:39 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2019/09/17 12:17:39 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2019/09/17 12:17:40 Extracting from file://C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2019/09/17 12:17:40 Changing gid back to original
+2019/09/17 12:17:40 running: E:\Krishna\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/09/17 12:17:51 running: E:\Krishna\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/09/17 12:17:52 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2019/09/17 12:17:53 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2019/09/17 12:17:53 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2019/09/17 12:17:53 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2019/09/17 12:17:54 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2019/09/17 12:17:55 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2019/09/17 12:17:55 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2019/09/17 12:17:56 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2019/09/17 12:17:59 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2019/09/17 12:17:59 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2019/09/17 12:18:00 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2019/09/17 12:18:00 running: E:\Krishna\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/09/17 12:18:00 Changing gid to Administrators
+2019/09/17 12:20:06 note: Installation Complete
+2019/09/17 12:20:06 Ending cygwin install
+2019/09/17 17:19:56 Starting cygwin install, version 2.876
+2019/09/17 17:19:56 User has backup/restore rights
+2019/09/17 17:19:56 Current Directory: C:\Users\Drona\Downloads
+2019/09/17 17:19:56 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/09/17 17:20:08 source: network install
+2019/09/17 17:20:15 root: E:\Krishna\cygwin64 system
+2019/09/17 17:20:16 Selected local directory: C:\Users\Drona\Downloads
+2019/09/17 17:20:18 net: Direct
+2019/09/17 17:20:21 site: http://mirrors.metapeer.com/cygwin/
+2019/09/17 17:20:25 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2019/09/17 17:20:31 mbox note: This setup is version 2.876, but setup.ini claims version 2.897 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2019/09/17 17:27:40 Adding required dependency adwaita-icon-theme: Selecting version 3.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency at-spi2-core: Selecting version 2.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency bc: Selecting version 1.06.95-2 for installation.
+2019/09/17 17:27:40 Adding required dependency biber: Selecting version 2.13-1 for installation.
+2019/09/17 17:27:40 Adding required dependency build-docbook-catalog: Selecting version 1.5-2 for installation.
+2019/09/17 17:27:40 Adding required dependency catgets: Selecting version 2.10.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency chmlib: Selecting version 0.40-1 for installation.
+2019/09/17 17:27:40 Adding required dependency clang: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency clisp: Selecting version 2.49-6.20150312hg15611 for installation.
+2019/09/17 17:27:40 Adding required dependency compiler-rt: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency compositeproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency crypt: Selecting version 2.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency csih: Selecting version 0.9.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency curl: Selecting version 7.65.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2019/09/17 17:27:40 Adding required dependency cygwin-devel: Selecting version 3.0.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency damageproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency dblatex: Selecting version 0.3.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency dconf-service: Selecting version 0.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency dejavu-fonts: Selecting version 2.37-1 for installation.
+2019/09/17 17:27:40 Adding required dependency desktop-file-utils: Selecting version 0.23-1 for installation.
+2019/09/17 17:27:40 Adding required dependency dialog: Selecting version 1.3-3.20170131 for installation.
+2019/09/17 17:27:40 Adding required dependency docbook-xml412: Selecting version 4.1.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency docbook-xml42: Selecting version 4.2-4 for installation.
+2019/09/17 17:27:40 Adding required dependency docbook-xml43: Selecting version 4.3-2 for installation.
+2019/09/17 17:27:40 Adding required dependency docbook-xml44: Selecting version 4.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency docbook-xml45: Selecting version 4.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency docbook-xsl: Selecting version 1.77.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency dri-drivers: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency ed: Selecting version 1.15-1 for installation.
+2019/09/17 17:27:40 Adding required dependency fixesproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gamin: Selecting version 0.1.10-15 for installation.
+2019/09/17 17:27:40 Adding required dependency gcc-core: Selecting version 7.4.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gcc-g++: Selecting version 7.4.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gconf-desktop-schemas: Selecting version 2.32.1-3 for installation.
+2019/09/17 17:27:40 Adding required dependency GConf2: Selecting version 3.2.6-2 for installation.
+2019/09/17 17:27:40 Adding required dependency gcr: Selecting version 3.20.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gdk-pixbuf2.0-svg: Selecting version 2.40.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gedit: Selecting version 3.22.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gettext: Selecting version 0.19.8.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency gettext-devel: Selecting version 0.19.8.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency ghostscript-fonts-std: Selecting version 20170801-5 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Atk1.0: Selecting version 2.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Atspi2.0: Selecting version 2.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-cairo1.0: Selecting version 1.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-GdkPixbuf2.0: Selecting version 2.36.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-GIRepository2.0: Selecting version 1.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-GLib2.0: Selecting version 1.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Gtk3.0: Selecting version 3.22.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-GtkSource3.0: Selecting version 3.24.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-HarfBuzz0.0: Selecting version 2.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Json1.0: Selecting version 1.4.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Pango1.0: Selecting version 1.40.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Peas1.0: Selecting version 1.22.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Rsvg2.0: Selecting version 2.40.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Soup2.4: Selecting version 2.60.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-Vte2.91: Selecting version 0.50.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency girepository-x11: Selecting version 1.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency git: Selecting version 2.21.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency glib2.0-networking: Selecting version 2.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gnome-keyring: Selecting version 3.20.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gnome-online-accounts: Selecting version 3.22.6-2 for installation.
+2019/09/17 17:27:40 Adding required dependency gnome-terminal: Selecting version 3.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gnupg: Selecting version 1.4.23-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gsettings-desktop-schemas: Selecting version 3.24.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gtk-update-icon-cache: Selecting version 3.22.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency guile1.8: Selecting version 1.8.8-3 for installation.
+2019/09/17 17:27:40 Adding required dependency gvfs: Selecting version 1.34.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency gwenview5-part: Selecting version 17.12.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency hicolor-icon-theme: Selecting version 0.15-1 for installation.
+2019/09/17 17:27:40 Adding required dependency htmldoc: Selecting version 1.8.28-3 for installation.
+2019/09/17 17:27:40 Adding required dependency hunspell: Selecting version 1.6.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency inputproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency iso-codes: Selecting version 4.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency kactivities: Selecting version 4.13.3-3 for installation.
+2019/09/17 17:27:40 Adding required dependency kactivitymanagerd: Selecting version 5.8.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency kbproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency kde-runtime: Selecting version 17.08.3-3 for installation.
+2019/09/17 17:27:40 Adding required dependency kf5-kdoctools: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency khrplatform-devel: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libabw0.1_1: Selecting version 0.1.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libakonadiprotocolinternals1: Selecting version 1.13.0-6 for installation.
+2019/09/17 17:27:40 Adding required dependency libamd1: Selecting version 2.4.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libarchive13: Selecting version 3.3.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libargon2_1: Selecting version 20171227-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libart_lgpl_2_2: Selecting version 2.3.21-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libaspell15: Selecting version 0.60.6.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libassuan0: Selecting version 2.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libasyncns0: Selecting version 0.8-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatk-bridge2.0-devel: Selecting version 2.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatk-bridge2.0_0: Selecting version 2.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatk1.0-devel: Selecting version 2.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatk1.0_0: Selecting version 2.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatkmm1.6_1: Selecting version 2.24.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatomic1: Selecting version 7.4.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatspi-devel: Selecting version 2.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libatspi0: Selecting version 2.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libattica0.4: Selecting version 0.4.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libaudio2: Selecting version 1.9.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libavahi-client3: Selecting version 0.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libavahi-common3: Selecting version 0.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libavahi-glib1: Selecting version 0.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libbabl-devel: Selecting version 0.1.62-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libbabl0.1_0: Selecting version 0.1.62-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libboost_system1.63: Selecting version 1.63.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libboost_system1.64: Selecting version 1.64.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libboost_system1.66: Selecting version 1.66.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libbotan1.10_1: Selecting version 1.10.17-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libbrotlicommon1: Selecting version 1.0.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libbrotlidec1: Selecting version 1.0.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libbz2-devel: Selecting version 1.0.8-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libc++-devel: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libc++1: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libc++abi-devel: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libc++abi1: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcairo-devel: Selecting version 1.14.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcairo2: Selecting version 1.14.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcairomm1.0_1: Selecting version 1.12.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcamd1: Selecting version 2.4.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcanberra0: Selecting version 0.30-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libcatgets-devel: Selecting version 2.10.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcatgets1: Selecting version 1.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libccolamd1: Selecting version 2.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcdr0.1_1: Selecting version 0.1.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libcerf1: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcfitsio3: Selecting version 3.360-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libchamplain-gtk0.12_0: Selecting version 0.12.16-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libchamplain0.12_0: Selecting version 0.12.16-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcharset1: Selecting version 1.14-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libchm0: Selecting version 0.40-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcholmod1: Selecting version 3.0.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libclang4.0: Selecting version 4.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libclang5.0: Selecting version 5.0.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libclang8: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libclutter-gtk1.0_0: Selecting version 1.8.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libclutter1.0_0: Selecting version 1.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcogl-common: Selecting version 1.22.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcogl20: Selecting version 1.22.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcolamd1: Selecting version 2.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcom_err2: Selecting version 1.44.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcroco0.6_3: Selecting version 0.6.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcrypt-devel: Selecting version 4.4.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcrypt2: Selecting version 4.4.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libcurl4: Selecting version 7.65.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdatrie1: Selecting version 0.2.8-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdb5.3: Selecting version 5.3.28-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libdbus-glib_1-devel: Selecting version 0.108-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdbus-glib_1_2: Selecting version 0.108-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdbus1-devel: Selecting version 1.10.22-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdbus1_3: Selecting version 1.10.22-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdbusmenu-qt2: Selecting version 0.9.3-0.2.20150604bzr for installation.
+2019/09/17 17:27:40 Adding required dependency libdbusmenu-qt5_2: Selecting version 0.9.3-0.2.20150604bzr for installation.
+2019/09/17 17:27:40 Adding required dependency libdconf1: Selecting version 0.26.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdialog13: Selecting version 1.3-2.20160828 for installation.
+2019/09/17 17:27:40 Adding required dependency libdialog14: Selecting version 1.3-3.20170131 for installation.
+2019/09/17 17:27:40 Adding required dependency libdjvulibre-common: Selecting version 3.5.27-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdjvulibre21: Selecting version 3.5.27-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdmtx0: Selecting version 0.7.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libdotconf0: Selecting version 1.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libe-book0.1_1: Selecting version 0.1.3-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libEGL-devel: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libEGL1: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libenchant1: Selecting version 1.6.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libeot0: Selecting version 0.01-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libepoxy-devel: Selecting version 1.4.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libepoxy0: Selecting version 1.4.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libepub0: Selecting version 0.2.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libepubgen0.0_0: Selecting version 0.0.0-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libepubgen0.1_1: Selecting version 0.1.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libespeak1: Selecting version 1.47.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libetonyek0.1_1: Selecting version 0.1.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libevdocument3_4: Selecting version 3.26.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libevview3_3: Selecting version 3.26.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libexempi-devel: Selecting version 2.3.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libexempi3: Selecting version 2.3.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libexiv2_14: Selecting version 0.25-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libexpat-devel: Selecting version 2.2.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libexpat1: Selecting version 2.2.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfam0: Selecting version 0.1.10-15 for installation.
+2019/09/17 17:27:40 Adding required dependency libfcgi0: Selecting version 2.4.0-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libffcall0: Selecting version 2.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfftw3_3: Selecting version 3.3.8-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libFLAC8: Selecting version 1.3.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libflite1: Selecting version 1.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfltk1.3: Selecting version 1.3.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfm-common: Selecting version 1.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfm-qt3: Selecting version 0.12.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfm-qt5-common: Selecting version 0.11.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfm4: Selecting version 1.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfontconfig-common: Selecting version 2.13.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfontconfig-devel: Selecting version 2.13.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfontconfig1: Selecting version 2.13.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfreehand0.1_1: Selecting version 0.1.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfreetype-devel: Selecting version 2.9.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libfreetype6: Selecting version 2.9.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgailutil18: Selecting version 2.24.32-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgailutil3_0: Selecting version 3.22.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgck1_0: Selecting version 3.20.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgconf2_4: Selecting version 3.2.6-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgcr-base3_1: Selecting version 3.20.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgcr-ui3-common: Selecting version 3.20.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgcr-ui3_1: Selecting version 3.20.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgcrypt20: Selecting version 1.8.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgd-devel: Selecting version 2.2.5-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgd3: Selecting version 2.2.5-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgdata-common: Selecting version 0.17.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgdata22: Selecting version 0.17.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgdbm6: Selecting version 1.18.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgdbm_compat4: Selecting version 1.18.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgdk_pixbuf2.0-devel: Selecting version 2.36.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgdk_pixbuf2.0_0: Selecting version 2.36.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgegl0.2_0: Selecting version 0.2.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgegl0.3_0: Selecting version 0.3.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgegl0.4-devel: Selecting version 0.4.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgegl0.4_0: Selecting version 0.4.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgexiv2-common: Selecting version 0.10.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgexiv2_2: Selecting version 0.10.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgfortran3: Selecting version 6.4.0-5 for installation.
+2019/09/17 17:27:40 Adding required dependency libgfortran4: Selecting version 7.4.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgif-devel: Selecting version 5.1.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgif7: Selecting version 5.1.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgii1: Selecting version 1.0.2-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libgii1-devel: Selecting version 1.0.2-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libgii1-input-x: Selecting version 1.0.2-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libgirara-common: Selecting version 0.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgirara-devel: Selecting version 0.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgirara-gtk3_2: Selecting version 0.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgirepository1.0_1: Selecting version 1.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libGL-devel: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libGL1: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libglade2.0_0: Selecting version 2.6.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libglapi0: Selecting version 19.1.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libglib1.2-devel: Selecting version 1.2.10-12 for installation.
+2019/09/17 17:27:40 Adding required dependency libglib1.2_0: Selecting version 1.2.10-12 for installation.
+2019/09/17 17:27:40 Adding required dependency libglib2.0-devel: Selecting version 2.54.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libglib2.0_0: Selecting version 2.54.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libglibmm2.4_1: Selecting version 2.54.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libGLU1: Selecting version 9.0.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libglut3: Selecting version 3.0.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgnome-autoar0_0: Selecting version 0.2.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgnome-desktop3_12: Selecting version 3.26.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgnutls30: Selecting version 3.6.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgoa-backend1.0_1: Selecting version 3.22.6-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgoa1.0_0: Selecting version 3.22.6-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgomp1: Selecting version 7.4.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgpg-error0: Selecting version 1.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgpgme11: Selecting version 1.9.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgpgmepp6: Selecting version 1.9.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgraphite2-devel: Selecting version 1.3.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgraphite2_3: Selecting version 1.3.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgsf-common: Selecting version 1.14.42-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgsf1_114: Selecting version 1.14.42-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgsl19: Selecting version 2.3-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgsm1: Selecting version 1.0.17-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgspell1-common: Selecting version 1.6.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgspell1_1: Selecting version 1.6.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgssapi_krb5_2: Selecting version 1.15.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libgstbad1.0_0: Selecting version 1.12.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgstinterfaces1.0_0: Selecting version 1.12.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgstreamer1.0_0: Selecting version 1.12.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtk1.2-devel: Selecting version 1.2.10-13 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtk1.2_0: Selecting version 1.2.10-13 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtk2.0-devel: Selecting version 2.24.32-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtk2.0_0: Selecting version 2.24.32-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtk3-devel: Selecting version 3.22.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtk3_0: Selecting version 3.22.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtkimageview0: Selecting version 1.6.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtkmm2.4_1: Selecting version 2.24.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtksourceview3.0-common: Selecting version 3.24.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtksourceview3.0_1: Selecting version 3.24.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgtkspell0: Selecting version 2.0.16-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libgxps2: Selecting version 0.2.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libharfbuzz-devel: Selecting version 2.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libharfbuzz-gobject0: Selecting version 2.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libharfbuzz-icu0: Selecting version 2.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libharfbuzz0: Selecting version 2.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhdf5hl_10: Selecting version 1.8.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhdf5hl_100: Selecting version 1.10.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhdf5_10: Selecting version 1.8.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhdf5_101: Selecting version 1.10.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhogweed4: Selecting version 3.4.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhunspell1.3_0: Selecting version 1.3.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhunspell1.4_0: Selecting version 1.4.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhunspell1.6_0: Selecting version 1.6.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhwloc15: Selecting version 2.0.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libhwloc5: Selecting version 1.11.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libical1: Selecting version 1.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libICE-devel: Selecting version 1.0.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libICE6: Selecting version 1.0.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libiconv-devel: Selecting version 1.14-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libicu56: Selecting version 56.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libicu58: Selecting version 58.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libicu60: Selecting version 60.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libicu61: Selecting version 61.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libicu62: Selecting version 62.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libicu64: Selecting version 64.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libid3tag0: Selecting version 0.15.1b-10 for installation.
+2019/09/17 17:27:40 Adding required dependency libidn11: Selecting version 1.33-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libidn2_0: Selecting version 2.2.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libiec16022_0: Selecting version 0.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libilmbase12: Selecting version 2.2.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libIlmCtl2: Selecting version 1.4.1-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libIlmImf22: Selecting version 2.2.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libIlmImfCtl-common: Selecting version 1.0.1-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libIlmImfCtl2: Selecting version 1.0.1-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libimagequant0: Selecting version 2.10.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libImlib2_1: Selecting version 1.4.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libintl-devel: Selecting version 0.19.8.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libiodbc2: Selecting version 3.52.8-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libiptcdata0: Selecting version 1.0.4-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libisl15: Selecting version 0.16.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjasper4: Selecting version 2.0.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjavascriptcoregtk1.0_0: Selecting version 2.0.4-5 for installation.
+2019/09/17 17:27:40 Adding required dependency libjavascriptcoregtk3.0-devel: Selecting version 2.0.4-5 for installation.
+2019/09/17 17:27:40 Adding required dependency libjavascriptcoregtk3.0_0: Selecting version 2.0.4-5 for installation.
+2019/09/17 17:27:40 Adding required dependency libjbig-devel: Selecting version 2.0-14 for installation.
+2019/09/17 17:27:40 Adding required dependency libjbig2: Selecting version 2.0-14 for installation.
+2019/09/17 17:27:40 Adding required dependency libjbig2dec0: Selecting version 0.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjpeg-devel: Selecting version 1.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjpeg8: Selecting version 1.5.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjson-c-common: Selecting version 0.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjson-c2: Selecting version 0.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjson-glib1.0-devel: Selecting version 1.4.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libjson-glib1.0_0: Selecting version 1.4.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libk5crypto3: Selecting version 1.15.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libkactivities6: Selecting version 4.13.3-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libkdecore-common: Selecting version 4.14.38-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libkdecore5: Selecting version 4.14.38-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libkexiv2-common: Selecting version 15.08.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libkexiv2_11: Selecting version 15.08.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Activities5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Archive5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Attica5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Auth5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Baloo5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Bookmarks5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Codecs5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Completion5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Config5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5ConfigWidgets5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5CoreAddons5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Crash5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5DBusAddons5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Declarative5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5FileMetaData3: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5GlobalAccel5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5GuiAddons5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5I18n5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5IconThemes5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5ItemModels5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5ItemViews5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5JobWidgets5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5JS5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5KDcraw5: Selecting version 17.12.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5KDELibs4Support5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5KExiv2_15: Selecting version 17.12.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5KHtml5: Selecting version 5.43.0-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5KIO5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Kipi-common: Selecting version 17.12.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Kipi32: Selecting version 17.12.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Notifications5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Package5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Parts5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Pty5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Service5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Solid5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Sonnet5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5TextWidgets5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5ThreadWeaver5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5Wallet5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5WidgetsAddons5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5WindowSystem5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libKF5XmlGui5: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libkpathsea6: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libkpim-common: Selecting version 4.14.10-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libkpim4: Selecting version 4.14.10-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libkrb5support0: Selecting version 1.15.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libkrb5_3: Selecting version 1.15.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libkscreen1: Selecting version 1.0.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblangtag-common: Selecting version 0.6.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblangtag1: Selecting version 0.6.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblapack0: Selecting version 3.8.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblasem0.4_4: Selecting version 0.4.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libLASi1: Selecting version 1.1.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency liblensfun-common: Selecting version 0.3.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblensfun0: Selecting version 0.3.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libllvm4.0: Selecting version 4.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libllvm5.0: Selecting version 5.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libllvm8: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblmdb0: Selecting version 0.9.19-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblz4_1: Selecting version 1.7.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblzma-devel: Selecting version 5.2.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liblzo2_2: Selecting version 2.10-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmate-desktop2-common: Selecting version 1.20.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmate-desktop2_17: Selecting version 1.20.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmenu-cache3: Selecting version 1.0.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmetalink3: Selecting version 0.1.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmetis0: Selecting version 5.1.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libming-devel: Selecting version 0.4.8-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libming1: Selecting version 0.4.8-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libmpc3: Selecting version 1.1.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmpfr4: Selecting version 3.1.6-1p1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmspub0.1_1: Selecting version 0.1.3-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libmwaw-tools: Selecting version 0.3.13-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmwaw0.3_3: Selecting version 0.3.13-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmypaint-common: Selecting version 1.3.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmypaint1.3_0: Selecting version 1.3.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libmysqlclient18: Selecting version 10.1.30-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libncurses++w10: Selecting version 6.1-1.20190727 for installation.
+2019/09/17 17:27:40 Adding required dependency libncurses-devel: Selecting version 6.1-1.20190727 for installation.
+2019/09/17 17:27:40 Adding required dependency libnetcdf11: Selecting version 4.4.1.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnetcdf13: Selecting version 4.6.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnettle6: Selecting version 3.4.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnfs8: Selecting version 1.11.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnghttp2_14: Selecting version 1.37.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnotify-devel: Selecting version 0.7.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnotify4: Selecting version 0.7.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnsl2: Selecting version 1.2.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnspr4: Selecting version 4.21-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libnss3: Selecting version 3.45-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liboauth-common: Selecting version 1.0.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liboauth0: Selecting version 1.0.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libodfgen0.1_1: Selecting version 0.1.6-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libogg0: Selecting version 1.3.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenal1: Selecting version 1.18.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenblas: Selecting version 0.3.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libOpenCL1: Selecting version 2.2.12-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libOpenColorIO1: Selecting version 1.0.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopencv2.4: Selecting version 2.4.11-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopencv3.2: Selecting version 3.2.0-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libopencv3.4: Selecting version 3.4.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenjp2_7: Selecting version 2.3.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenldap2_4_2: Selecting version 2.4.48-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenraw1: Selecting version 0.0.9-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenraw7: Selecting version 0.1.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libopenssl100: Selecting version 1.0.2t-1 for installation.
+2019/09/17 17:27:40 Adding required dependency liborc0.4_0: Selecting version 0.4.28-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpagemaker0.0_0: Selecting version 0.0.3-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpango1.0-devel: Selecting version 1.40.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpango1.0_0: Selecting version 1.40.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpangomm1.4_1: Selecting version 2.40.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpaper-common: Selecting version 1.1.24-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpaper1: Selecting version 1.1.24-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcre-devel: Selecting version 8.43-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcre16_0: Selecting version 8.43-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcre2_16_0: Selecting version 10.33-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcre2_8_0: Selecting version 10.33-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcre32_0: Selecting version 8.43-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcrecpp0: Selecting version 8.43-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpcreposix0: Selecting version 8.43-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpeas-common: Selecting version 1.22.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpeas1.0_0: Selecting version 1.22.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libphonon4: Selecting version 4.9.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libphonon4qt5_4: Selecting version 4.9.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpixman1-devel: Selecting version 0.38.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpixman1_0: Selecting version 0.38.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpkgconf3: Selecting version 1.6.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpng-devel: Selecting version 1.6.37-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpng16: Selecting version 1.6.37-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpng16-devel: Selecting version 1.6.37-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpocl-common: Selecting version 1.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpocl1: Selecting version 0.14-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpocl2: Selecting version 1.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpodofo0.9.4: Selecting version 0.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpodofo0.9.5: Selecting version 0.9.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpodofo0.9.6: Selecting version 0.9.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpolly8: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler-glib8: Selecting version 0.62.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler-qt4_4: Selecting version 0.57.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler-qt5_1: Selecting version 0.62.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler62: Selecting version 0.45.0-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler66: Selecting version 0.52.0-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler68: Selecting version 0.57.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpoppler73: Selecting version 0.62.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libportaudio2: Selecting version 19.20140130-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libpq5: Selecting version 11.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libprison0: Selecting version 1.1.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libproxy1: Selecting version 0.4.14-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libpsl5: Selecting version 0.21.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libptexenc1: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpulse-mainloop-glib0: Selecting version 11.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpulse-simple0: Selecting version 11.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libpulse0: Selecting version 11.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqca-qt5_2: Selecting version 2.1.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqca2: Selecting version 2.1.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqimageblitz4: Selecting version 0.0.6-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqjson0: Selecting version 0.8.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqmobipocket1: Selecting version 16.08.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqmobipocket2: Selecting version 17.12.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqrencode3: Selecting version 3.4.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt3Support4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Core5: Selecting version 5.9.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Gui5: Selecting version 5.9.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Multimedia5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Quick5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Script5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Sql5: Selecting version 5.9.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5Svg5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5TextToSpeech5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5X11Extras5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQt5XmlPatterns5: Selecting version 5.9.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtCore4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtCore4-devel: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtDBus4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtDeclarative4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtGui4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtGui4-devel: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtNetwork4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtOpenGL4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtScript4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtSql4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtSvg4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtWebKit4: Selecting version 4.10.4-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtXml4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libQtXmlPatterns4: Selecting version 4.8.7-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libquadmath0: Selecting version 7.4.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libqxp0.0_0: Selecting version 0.0.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libqzeitgeist1: Selecting version 0.8.0-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libQZint2.4: Selecting version 2.4.3-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libraw16: Selecting version 0.18.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency librest0.7_0: Selecting version 0.8.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency librevenge0.0_0: Selecting version 0.0.4-2 for installation.
+2019/09/17 17:27:40 Adding required dependency librsvg2-devel: Selecting version 2.40.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency librsvg2_2: Selecting version 2.40.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency librvngabw0.0_0: Selecting version 0.0.2-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsasl2_3: Selecting version 2.1.26-11 for installation.
+2019/09/17 17:27:40 Adding required dependency libSDL1.2_0: Selecting version 1.2.15-3 for installation.
+2019/09/17 17:27:40 Adding required dependency libsecret1_0: Selecting version 0.18.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsigc2.0_0: Selecting version 2.10.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libslang-devel: Selecting version 2.3.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libslang2: Selecting version 2.3.2-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libSM-devel: Selecting version 1.2.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libSM6: Selecting version 1.2.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsndfile1: Selecting version 1.0.28-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libsoup-gnome2.4_1: Selecting version 2.60.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsoup2.4-devel: Selecting version 2.60.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsoup2.4_1: Selecting version 2.60.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libspeechd2: Selecting version 0.8.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libspiro0: Selecting version 20071029-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsqlite3_0: Selecting version 3.28.0-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libssh-common: Selecting version 0.8.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libssh4: Selecting version 0.8.7-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libssl1.0: Selecting version 1.0.2t-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libssp0: Selecting version 6.4.0-4 for installation.
+2019/09/17 17:27:40 Adding required dependency libstaroffice0.0_0: Selecting version 0.0.5-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libstartup-notification1_0: Selecting version 0.12-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libsuitesparseconfig1: Selecting version 4.5.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsvm2: Selecting version 3.20-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsybdb5: Selecting version 1.00.37-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsynctex1: Selecting version 20180918-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libsynctex2: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtag1: Selecting version 1.11.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtdb1: Selecting version 1.3.18-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libteckit0: Selecting version 2.5.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtelepathy-glib0: Selecting version 0.24.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtexlua52_5: Selecting version 20180918-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtexlua53_5: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtexluajit2: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libthai0: Selecting version 0.1.26-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtiff-devel: Selecting version 4.0.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtiff6: Selecting version 4.0.9-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtirpc-common: Selecting version 1.1.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtirpc3: Selecting version 1.1.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtracker2.0_0: Selecting version 2.0.3-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libttfautohint1: Selecting version 1.8.3-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libtxc_dxtn: Selecting version 1.0.1-2 for installation.
+2019/09/17 17:27:40 Adding required dependency libudunits0: Selecting version 2.2.25-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libumfpack1: Selecting version 5.7.4-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libuninameslist0: Selecting version 20091231-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libunwind-devel: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:40 Adding required dependency libunwind1: Selecting version 8.0.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libusb0: Selecting version 1.2.6.0-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libuuid-devel: Selecting version 2.33.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvisio0.1_1: Selecting version 0.1.6-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libvoikko1: Selecting version 3.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvorbis: Selecting version 1.3.6-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvorbis0: Selecting version 1.3.6-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvorbisenc2: Selecting version 1.3.6-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvorbisfile3: Selecting version 1.3.6-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvpx-devel: Selecting version 1.7.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvpx3: Selecting version 1.5.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvpx4: Selecting version 1.6.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvpx5: Selecting version 1.7.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libvte2.91_0: Selecting version 0.50.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebkitgtk1.0_0: Selecting version 2.0.4-5 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebkitgtk3.0-devel: Selecting version 2.0.4-5 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebkitgtk3.0_0: Selecting version 2.0.4-5 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebp5: Selecting version 0.4.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebp7: Selecting version 0.6.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebpdecoder1: Selecting version 0.4.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebpdemux1: Selecting version 0.4.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebpdemux2: Selecting version 0.6.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebpmux1: Selecting version 0.4.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwebpmux3: Selecting version 0.6.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libwmf027: Selecting version 0.2.8.4-15 for installation.
+2019/09/17 17:27:41 Adding required dependency libwpd-tools: Selecting version 0.10.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwpd0.10_10: Selecting version 0.10.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwpg0.3_3: Selecting version 0.3.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwps-tools: Selecting version 0.4.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwps0.4_4: Selecting version 0.4.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libwrap0: Selecting version 7.6-26 for installation.
+2019/09/17 17:27:41 Adding required dependency libX11-devel: Selecting version 1.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libX11-xcb-devel: Selecting version 1.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libX11-xcb1: Selecting version 1.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libX11_6: Selecting version 1.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXau-devel: Selecting version 1.0.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXau6: Selecting version 1.0.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXaw3d8: Selecting version 1.6.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXaw7: Selecting version 1.0.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-cursor0: Selecting version 0.1.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-devel: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-dri2_0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-glx-devel: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-glx0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-icccm4: Selecting version 0.4.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-image0: Selecting version 0.3.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-keysyms1: Selecting version 0.3.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-randr0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-render-devel: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-render-util0: Selecting version 0.3.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-render0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-shape0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-shm-devel: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-shm0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-sync1: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-util1: Selecting version 0.3.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-xfixes0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-xinerama0: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb-xkb1: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxcb1: Selecting version 1.13-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXcomposite-devel: Selecting version 0.4.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXcomposite1: Selecting version 0.4.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXcursor-devel: Selecting version 1.2.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXcursor1: Selecting version 1.2.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXdamage-devel: Selecting version 1.1.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXdamage1: Selecting version 1.1.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXdmcp-devel: Selecting version 1.1.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXdmcp6: Selecting version 1.1.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXext-devel: Selecting version 1.3.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXext6: Selecting version 1.3.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxfce4ui-common: Selecting version 4.12.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxfce4ui1_0: Selecting version 4.12.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxfce4util-common: Selecting version 4.12.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxfce4util6: Selecting version 4.10.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxfce4util7: Selecting version 4.12.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxfconf0_2: Selecting version 4.12.0-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libXfixes-devel: Selecting version 5.0.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXfixes3: Selecting version 5.0.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXft-devel: Selecting version 2.3.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXft2: Selecting version 2.3.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXi-devel: Selecting version 1.7.10-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXi6: Selecting version 1.7.10-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXinerama-devel: Selecting version 1.1.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXinerama1: Selecting version 1.1.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxkbcommon0: Selecting version 0.8.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXm4: Selecting version 2.3.6-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxml2: Selecting version 2.9.9-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libxml2-devel: Selecting version 2.9.9-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libXmu6: Selecting version 1.1.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXpm-devel: Selecting version 3.5.12-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXpm4: Selecting version 3.5.12-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXrandr-devel: Selecting version 1.5.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXrandr2: Selecting version 1.5.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXrender-devel: Selecting version 0.9.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXrender1: Selecting version 0.9.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libxslt: Selecting version 1.1.29-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXss1: Selecting version 1.2.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXt6: Selecting version 1.2.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libXtst6: Selecting version 1.2.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libyaml0_2: Selecting version 0.1.6-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libzint2.4: Selecting version 2.4.3-3 for installation.
+2019/09/17 17:27:41 Adding required dependency libzip-devel: Selecting version 1.5.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libzip2: Selecting version 0.11.2-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libzip5: Selecting version 1.5.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency libzmf0.0_0: Selecting version 0.0.2-2 for installation.
+2019/09/17 17:27:41 Adding required dependency libzzip0.13: Selecting version 0.13.68-1 for installation.
+2019/09/17 17:27:41 Adding required dependency lua: Selecting version 5.3.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency lua-gv: Selecting version 2.40.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency luajit: Selecting version 2.0.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency mariadb-common: Selecting version 3.0.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency mate-desktop-schemas: Selecting version 1.20.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency menu-cache: Selecting version 1.0.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency mypaint-brushes: Selecting version 1.3.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency mysql-common: Selecting version 10.3.14-1 for installation.
+2019/09/17 17:27:41 Adding required dependency nautilus: Selecting version 3.26.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency openssh: Selecting version 8.0p1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency oxygen-icons: Selecting version 5.43.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl: Selecting version 5.26.3-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-autovivification: Selecting version 0.18-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-B-Hooks-EndOfScope: Selecting version 0.24-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Business-ISBN: Selecting version 3.004-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Business-ISBN-Data: Selecting version 20140910.003-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Business-ISMN: Selecting version 1.201-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Business-ISSN: Selecting version 1.003-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Carp: Selecting version 1.38-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Class-Accessor: Selecting version 0.51-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Class-Data-Inheritable: Selecting version 0.08-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Class-Factory-Util: Selecting version 1.7-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Class-Inspector: Selecting version 1.36-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Class-Singleton: Selecting version 1.5-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Data-Compare: Selecting version 1.25-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Data-Dump: Selecting version 1.23-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Data-Uniqid: Selecting version 0.12-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-DateTime: Selecting version 1.51-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-DateTime-Calendar-Julian: Selecting version 0.101-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-DateTime-Format-Builder: Selecting version 0.82-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-DateTime-Format-Strptime: Selecting version 1.76-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-DateTime-Locale: Selecting version 1.24-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-DateTime-TimeZone: Selecting version 2.36-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Devel-StackTrace: Selecting version 2.04-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Digest-SHA: Selecting version 6.02-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Digest-SHA1: Selecting version 2.13-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Dist-CheckConflicts: Selecting version 0.11-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Encode-Locale: Selecting version 1.05-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Error: Selecting version 0.17028-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Eval-Closure: Selecting version 0.14-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Exception-Class: Selecting version 1.44-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-Copy-Recursive: Selecting version 0.45-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-Find-Rule: Selecting version 0.34-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-HomeDir: Selecting version 1.004-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-Listing: Selecting version 6.04-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-ShareDir: Selecting version 1.116-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-Slurp-Tiny: Selecting version 0.004-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-Slurper: Selecting version 0.012-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-File-Which: Selecting version 1.23-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTML-Parser: Selecting version 3.72-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTML-Tagset: Selecting version 3.20-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTTP-Cookies: Selecting version 6.04-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTTP-Daemon: Selecting version 6.06-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTTP-Date: Selecting version 6.02-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTTP-Message: Selecting version 6.18-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-HTTP-Negotiate: Selecting version 6.01-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-IO-HTML: Selecting version 1.001-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-IO-Socket-SSL: Selecting version 2.066-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-IO-String: Selecting version 1.08-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-IPC-Cmd: Selecting version 1.04-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-IPC-Run3: Selecting version 0.048-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-libwww-perl: Selecting version 6.39-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Lingua-Translit: Selecting version 0.28-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-List-AllUtils: Selecting version 0.15-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-List-SomeUtils: Selecting version 0.56-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-List-SomeUtils-XS: Selecting version 0.58-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-List-UtilsBy: Selecting version 0.11-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Log-Log4perl: Selecting version 1.49-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-LWP-MediaTypes: Selecting version 6.04-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-LWP-Protocol-https: Selecting version 6.07-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-MIME-Charset: Selecting version 1.012.2-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Module-Implementation: Selecting version 0.09-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Module-Runtime: Selecting version 0.016-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Mojolicious: Selecting version 8.23-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Mozilla-CA: Selecting version 20180117-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-MRO-Compat: Selecting version 0.13-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-namespace-autoclean: Selecting version 0.29-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-namespace-clean: Selecting version 0.27-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Net-HTTP: Selecting version 6.19-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Net-SSLeay: Selecting version 1.88-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Number-Compare: Selecting version 0.03-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Package-DeprecationManager: Selecting version 0.17-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Package-Stash: Selecting version 0.38-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Package-Stash-XS: Selecting version 0.29-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Params-Util: Selecting version 1.07-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Params-Validate: Selecting version 1.29-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Params-ValidationCompiler: Selecting version 0.30-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Pod-Simple: Selecting version 3.35-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Proc-ProcessTable: Selecting version 0.59-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Regexp-Common: Selecting version 2017060201-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Role-Tiny: Selecting version 2.000008-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Scalar-List-Utils: Selecting version 1.52-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Socket: Selecting version 2.029-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Sort-Key: Selecting version 1.33-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Specio: Selecting version 0.44-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Sub-Exporter-Progressive: Selecting version 0.001013-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Sub-Identify: Selecting version 0.14-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Sub-Install: Selecting version 0.928-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Sub-Name: Selecting version 0.21-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Sub-Quote: Selecting version 2.006003-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-TermReadKey: Selecting version 2.38-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Test-Fatal: Selecting version 0.014-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Text-BibTeX: Selecting version 0.88-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Text-CSV: Selecting version 2.00-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Text-Glob: Selecting version 0.11-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Text-Roman: Selecting version 3.5-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Tie-Cycle: Selecting version 1.225-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-TimeDate: Selecting version 2.30-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Tk: Selecting version 804.034-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Tk-Pod: Selecting version 0.9943-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Try-Tiny: Selecting version 0.30-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Unicode-Collate: Selecting version 1.27-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Unicode-LineBreak: Selecting version 2019.001-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Unicode-Normalize: Selecting version 1.25-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-URI: Selecting version 1.76-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-Variable-Magic: Selecting version 0.62-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-WWW-RobotRules: Selecting version 6.02-6 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-LibXML: Selecting version 2.0134-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-LibXML-Simple: Selecting version 0.99-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-LibXSLT: Selecting version 1.96-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-NamespaceSupport: Selecting version 1.12-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-Parser: Selecting version 2.44-3 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-SAX: Selecting version 1.02-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-SAX-Base: Selecting version 1.09-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-XML-Writer: Selecting version 0.625-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl-YAML-Tiny: Selecting version 1.73-1 for installation.
+2019/09/17 17:27:41 Adding required dependency perl_autorebase: Selecting version 5.26.3-2 for installation.
+2019/09/17 17:27:41 Adding required dependency perl_base: Selecting version 5.26.3-2 for installation.
+2019/09/17 17:27:41 Adding required dependency php: Selecting version 7.3.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency pkg-config: Selecting version 1.6.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency pkgconf: Selecting version 1.6.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency pl: Selecting version 7.2.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency preview-latex: Selecting version 11.92-1 for installation.
+2019/09/17 17:27:41 Adding required dependency publicsuffix-list-dafsa: Selecting version 20190717-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python: Selecting version 2.7.16-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-cairo: Selecting version 1.14.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-chm: Selecting version 0.8.4-12 for installation.
+2019/09/17 17:27:41 Adding required dependency python-fontforge: Selecting version 20170731-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-gi-common: Selecting version 3.26.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python-gobject: Selecting version 2.28.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-gobject-common: Selecting version 2.28.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-gtk2.0: Selecting version 2.24.0-3 for installation.
+2019/09/17 17:27:41 Adding required dependency python-libxml2: Selecting version 2.9.9-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python-numpy: Selecting version 1.16.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-pip-wheel: Selecting version 19.1.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-setuptools: Selecting version 41.0.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python-setuptools-wheel: Selecting version 41.0.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2: Selecting version 2.7.16-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-asn1crypto: Selecting version 0.24.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-backports.ssl_match_hostname: Selecting version 3.5.0.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-cairo: Selecting version 1.14.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-cffi: Selecting version 1.12.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-chardet: Selecting version 3.0.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-cryptography: Selecting version 2.6.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-decorator: Selecting version 4.4.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-devel: Selecting version 2.7.16-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-docutils: Selecting version 0.14-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-enum34: Selecting version 1.1.6-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-future: Selecting version 0.17.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-gi: Selecting version 3.26.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-gobject: Selecting version 2.28.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-gv: Selecting version 2.40.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-idna: Selecting version 2.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-imaging: Selecting version 5.4.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-ipaddress: Selecting version 1.0.22-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-ipython: Selecting version 5.8.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-ipython_genutils: Selecting version 0.2.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-libxml2: Selecting version 2.9.9-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-lxml: Selecting version 4.3.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-numpy: Selecting version 1.16.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-openssl: Selecting version 19.0.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-packaging: Selecting version 19.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-pathlib2: Selecting version 2.3.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-pexpect: Selecting version 4.6.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-pickleshare: Selecting version 0.7.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-ply: Selecting version 3.11-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-ptyprocess: Selecting version 0.6.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-pycparser: Selecting version 2.19-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-pygments: Selecting version 2.3.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-pyparsing: Selecting version 2.3.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-requests: Selecting version 2.21.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-setuptools: Selecting version 41.0.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-simplegeneric: Selecting version 0.8.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-six: Selecting version 1.12.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-traitlets: Selecting version 4.3.2-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python2-urllib3: Selecting version 1.24.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27: Selecting version 2.7.16-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-asn1crypto: Selecting version 0.24.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-cairo: Selecting version 1.14.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-cffi: Selecting version 1.12.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-chardet: Selecting version 3.0.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-cryptography: Selecting version 2.6.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-decorator: Selecting version 4.4.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-devel: Selecting version 2.7.16-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-docutils: Selecting version 0.14-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-enum34: Selecting version 1.1.6-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-future: Selecting version 0.17.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-gi: Selecting version 3.26.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-gv: Selecting version 2.40.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-idna: Selecting version 2.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-imaging: Selecting version 5.4.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-ipaddress: Selecting version 1.0.22-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-ipython: Selecting version 5.8.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-ipython_genutils: Selecting version 0.2.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-libxml2: Selecting version 2.9.9-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-lxml: Selecting version 4.3.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-numpy: Selecting version 1.16.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-olefile: Selecting version 0.46-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-openssl: Selecting version 19.0.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-packaging: Selecting version 19.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-pathlib2: Selecting version 2.3.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-pexpect: Selecting version 4.6.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-pickleshare: Selecting version 0.7.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-ply: Selecting version 3.11-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-prompt_toolkit: Selecting version 1.0.15-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-ptyprocess: Selecting version 0.6.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-pycparser: Selecting version 2.19-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-pygments: Selecting version 2.3.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-pyparsing: Selecting version 2.3.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-requests: Selecting version 2.21.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-scandir: Selecting version 1.10.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-setuptools: Selecting version 41.0.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-simplegeneric: Selecting version 0.8.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-six: Selecting version 1.12.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-traitlets: Selecting version 4.3.2-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-urllib3: Selecting version 1.24.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python27-wcwidth: Selecting version 0.1.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python3: Selecting version 3.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python3-gi: Selecting version 3.26.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python36: Selecting version 3.6.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-cairo: Selecting version 1.14.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-cffi: Selecting version 1.12.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-chardet: Selecting version 3.0.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-gi: Selecting version 3.26.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-imaging: Selecting version 5.4.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-olefile: Selecting version 0.46-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-ply: Selecting version 3.11-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-pycparser: Selecting version 2.19-1 for installation.
+2019/09/17 17:27:41 Adding required dependency python36-pygments: Selecting version 2.3.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency randrproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency renderproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency rgb: Selecting version 1.0.5-1 for installation.
+2019/09/17 17:27:41 Adding required dependency rsync: Selecting version 3.1.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby: Selecting version 2.6.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-atk: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-builder: Selecting version 3.2.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-cairo: Selecting version 1.14.6-3 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-cairo-gobject: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-did_you_mean: Selecting version 1.2.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gdk3: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gdk_pixbuf2: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gettext: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gio2: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-glib2: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gobject-introspection: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gtk2: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gtk3: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gtksourceview3: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-gv: Selecting version 2.40.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-io-console: Selecting version 2.6.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-locale: Selecting version 2.1.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-minitest: Selecting version 5.10.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-native-package-installer: Selecting version 1.0.6-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-pango: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-pkg-config: Selecting version 1.3.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-psych: Selecting version 2.6.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-rake: Selecting version 12.3.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-rdoc: Selecting version 6.1.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-text: Selecting version 1.3.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency ruby-vte3: Selecting version 3.2.9-1 for installation.
+2019/09/17 17:27:41 Adding required dependency rubygems: Selecting version 3.0.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency sgml-common: Selecting version 0.6.3-3 for installation.
+2019/09/17 17:27:41 Adding required dependency shared-mime-info: Selecting version 1.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency sound-theme-freedesktop: Selecting version 0.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency speech-dispatcher: Selecting version 0.8.7-1 for installation.
+2019/09/17 17:27:41 Adding required dependency suomi-malaga: Selecting version 1.19-1 for installation.
+2019/09/17 17:27:41 Adding required dependency tcl: Selecting version 8.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency tcl-tcldot: Selecting version 2.40.1-4 for installation.
+2019/09/17 17:27:41 Adding required dependency tcl-tk: Selecting version 8.6.8-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-basic: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-bibtexextra: Selecting version 20190913-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-binextra: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-fontsrecommended: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-latex: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-latexextra: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-latexrecommended: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-mathextra: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-mathscience: Selecting version 20190509-1 for installation.
+2019/09/17 17:27:41 Adding required dependency texlive-collection-pictures: Selecting version 20190913-1 for installation.
+2019/09/17 17:27:41 Adding required dependency vala-librsvg2.0: Selecting version 2.40.20-1 for installation.
+2019/09/17 17:27:41 Adding required dependency vala-libsoup2.4: Selecting version 2.60.3-1 for installation.
+2019/09/17 17:27:41 Adding required dependency w32api-headers: Selecting version 5.0.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency w32api-runtime: Selecting version 5.0.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency w3m: Selecting version 0.5.3-3 for installation.
+2019/09/17 17:27:41 Adding required dependency wget: Selecting version 1.19.1-2 for installation.
+2019/09/17 17:27:41 Adding required dependency windows-default-manifest: Selecting version 6.4-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xbitmaps: Selecting version 1.1.2-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xextproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xfconfd: Selecting version 4.12.0-2 for installation.
+2019/09/17 17:27:41 Adding required dependency xineramaproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xkeyboard-config: Selecting version 2.23.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xmlto: Selecting version 0.0.26-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xorgproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency xproto: Selecting version 2019.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency yelp-xsl: Selecting version 3.20.1-1 for installation.
+2019/09/17 17:27:41 Adding required dependency zenity: Selecting version 3.26.0-1 for installation.
+2019/09/17 17:27:41 Adding required dependency zlib: Selecting version 1.2.11-1 for installation.
+2019/09/17 17:27:41 Adding required dependency zlib-devel: Selecting version 1.2.11-1 for installation.
+2019/09/17 17:27:48 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/2048-cli/2048-cli-debuginfo/2048-cli-debuginfo-0.9.1-1.tar.xz
+2019/09/17 17:27:59 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/2048-qt/2048-qt-debuginfo/2048-qt-debuginfo-0.1.6-1.tar.xz
+2019/09/17 17:28:14 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/4ti2/4ti2-debuginfo/4ti2-debuginfo-1.6.7-2.tar.xz
+2019/09/17 17:28:19 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/AtomicParsley/AtomicParsley-debuginfo/AtomicParsley-debuginfo-0.9.6-1.tar.xz
+2019/09/17 17:28:21 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/CUnit/CUnit-debuginfo/CUnit-debuginfo-2.1.3-1.tar.xz
+2019/09/17 17:28:24 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/GConf2/GConf2-3.2.6-2.tar.bz2
+2019/09/17 17:28:29 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/GConf2/GConf2-debuginfo/GConf2-debuginfo-3.2.6-2.tar.bz2
+2019/09/17 17:28:30 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/GeoIP/GeoIP-debuginfo/GeoIP-debuginfo-1.6.9-1.tar.xz
+2019/09/17 17:28:36 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/GraphicsMagick/GraphicsMagick-1.3.33-1.tar.xz
+2019/09/17 17:28:51 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/GraphicsMagick/GraphicsMagick-debuginfo/GraphicsMagick-debuginfo-1.3.33-1.tar.xz
+2019/09/17 17:28:59 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ImageMagick/ImageMagick-6.9.10.11-1.tar.xz
+2019/09/17 17:29:16 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ImageMagick/ImageMagick-debuginfo/ImageMagick-debuginfo-6.9.10.11-1.tar.xz
+2019/09/17 17:29:31 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ImageMagick/ImageMagick-doc/ImageMagick-doc-6.9.10.11-1.tar.xz
+2019/09/17 17:29:36 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ORBit2/ORBit2-debuginfo/ORBit2-debuginfo-2.14.19-2.tar.bz2
+2019/09/17 17:29:42 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/OpenColorIO/OpenColorIO-1.0.9-1.tar.xz
+2019/09/17 17:30:00 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/OpenColorIO/OpenColorIO-debuginfo/OpenColorIO-debuginfo-1.0.9-1.tar.xz
+2019/09/17 17:30:08 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/OpenColorIO/OpenColorIO-doc/OpenColorIO-doc-1.0.9-1.tar.xz
+2019/09/17 17:30:18 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/OpenSP/OpenSP-debuginfo/OpenSP-debuginfo-1.5.2-2.tar.bz2
+2019/09/17 17:30:42 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/R/R-debuginfo/R-debuginfo-3.6.0-1.tar.xz
+2019/09/17 17:30:45 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL/SDL-debuginfo/SDL-debuginfo-1.2.15-3.tar.xz
+2019/09/17 17:30:49 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL2/SDL2-debuginfo/SDL2-debuginfo-2.0.7-1.tar.xz
+2019/09/17 17:30:52 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL2_image/SDL2_image-debuginfo/SDL2_image-debuginfo-2.0.2-1.tar.xz
+2019/09/17 17:30:54 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL2_mixer/SDL2_mixer-debuginfo/SDL2_mixer-debuginfo-2.0.2-1.tar.xz
+2019/09/17 17:30:55 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL2_net/SDL2_net-debuginfo/SDL2_net-debuginfo-2.0.1-1.tar.xz
+2019/09/17 17:30:56 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL2_ttf/SDL2_ttf-debuginfo/SDL2_ttf-debuginfo-2.0.14-1.tar.xz
+2019/09/17 17:31:03 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_Pango/SDL_Pango-debuginfo/SDL_Pango-debuginfo-0.1.2-10.tar.bz2
+2019/09/17 17:31:10 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_gfx/SDL_gfx-debuginfo/SDL_gfx-debuginfo-2.0.24-1.tar.bz2
+2019/09/17 17:31:12 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_image/SDL_image-debuginfo/SDL_image-debuginfo-1.2.12-6.tar.xz
+2019/09/17 17:31:14 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_mixer/SDL_mixer-debuginfo/SDL_mixer-debuginfo-1.2.12-4.tar.xz
+2019/09/17 17:31:19 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_net/SDL_net-debuginfo/SDL_net-debuginfo-1.2.8-1.tar.bz2
+2019/09/17 17:31:23 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_sound/SDL_sound-debuginfo/SDL_sound-debuginfo-1.0.3-13.tar.xz
+2019/09/17 17:31:24 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/SDL_ttf/SDL_ttf-debuginfo/SDL_ttf-debuginfo-2.0.11-1.tar.bz2
+2019/09/17 17:32:19 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/TeXmacs/TeXmacs-debuginfo/TeXmacs-debuginfo-1.99.9-1.tar.xz
+2019/09/17 17:32:27 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/Thunar/Thunar-debuginfo/Thunar-debuginfo-1.6.10-2.tar.xz
+2019/09/17 17:32:34 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/WindowMaker/WindowMaker-debuginfo/WindowMaker-debuginfo-0.95.8-2.tar.xz
+2019/09/17 17:32:36 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/WordNet/WordNet-debuginfo/WordNet-debuginfo-3.0-4.tar.xz
+2019/09/17 17:32:40 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/XmHTML/XmHTML-debuginfo/XmHTML-debuginfo-1.1.7-13.tar.xz
+2019/09/17 17:32:46 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/XtoW/XtoW-debuginfo/XtoW-debuginfo-20170106-1.tar.xz
+2019/09/17 17:32:50 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/a2ps/a2ps-debuginfo/a2ps-debuginfo-4.14-3.tar.xz
+2019/09/17 17:32:51 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/a52dec/a52dec-debuginfo/a52dec-debuginfo-0.7.4-11.tar.xz
+2019/09/17 17:32:53 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aalib/aalib-1.4rc5-12.tar.xz
+2019/09/17 17:32:55 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aalib/aalib-debuginfo/aalib-debuginfo-1.4rc5-12.tar.xz
+2019/09/17 17:32:56 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aalib/aalib-devel/aalib-devel-1.4rc5-12.tar.xz
+2019/09/17 17:33:35 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/abiword/abiword-debuginfo/abiword-debuginfo-3.0.2-3.tar.xz
+2019/09/17 17:33:38 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/activity-log-manager/activity-log-manager-debuginfo/activity-log-manager-debuginfo-0.9.7-1.tar.xz
+2019/09/17 17:34:18 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/adwaita-icon-theme/adwaita-icon-theme-3.26.1-1.tar.xz
+2019/09/17 17:34:33 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/adwaita-qt/adwaita-qt-debuginfo/adwaita-qt-debuginfo-1.0-2.tar.xz
+2019/09/17 17:34:35 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aften/aften-debuginfo/aften-debuginfo-0.0.8-2.tar.xz
+2019/09/17 17:34:37 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aiksaurus/aiksaurus-debuginfo/aiksaurus-debuginfo-1.2.1-11.tar.xz
+2019/09/17 17:34:43 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/akonadi-calendar-tools/akonadi-calendar-tools-debuginfo/akonadi-calendar-tools-debuginfo-17.12.3-1.tar.xz
+2019/09/17 17:36:26 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/akonadi/akonadi-debuginfo/akonadi-debuginfo-17.12.3-1.tar.xz
+2019/09/17 17:36:30 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/alarm-clock-applet/alarm-clock-applet-debuginfo/alarm-clock-applet-debuginfo-0.3.4-2.tar.xz
+2019/09/17 17:36:34 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/alkimia5/alkimia5-debuginfo/alkimia5-debuginfo-7.0-1.tar.xz
+2019/09/17 17:36:39 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/alure/alure-debuginfo/alure-debuginfo-1.2-3.tar.xz
+2019/09/17 17:36:40 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/alure/alure-doc/alure-doc-1.2-3.tar.xz
+2019/09/17 17:36:41 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/amd/amd-debuginfo/amd-debuginfo-2.4.4-1.tar.xz
+2019/09/17 17:37:06 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/analitza/analitza-debuginfo/analitza-debuginfo-17.12.3-1.tar.xz
+2019/09/17 17:37:28 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/anjuta/anjuta-debuginfo/anjuta-debuginfo-3.26.0-1.tar.xz
+2019/09/17 17:37:52 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/anjuta-extras/anjuta-extras-debuginfo/anjuta-extras-debuginfo-3.26.0-1.tar.xz
+2019/09/17 17:38:15 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/ansible/ansible-doc/ansible-doc-2.8.4-1.tar.xz
+2019/09/17 17:38:22 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/anthy/anthy-debuginfo/anthy-debuginfo-9100h-2.tar.xz
+2019/09/17 17:38:23 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/apng2gif/apng2gif-1.5-1.tar.bz2
+2019/09/17 17:38:24 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/apngasm/apngasm-2.6-2.tar.xz
+2019/09/17 17:38:25 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/apngdis/apngdis-2.4-1.tar.bz2
+2019/09/17 17:38:26 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/apngopt/apngopt-1.1-1.tar.bz2
+2019/09/17 17:38:26 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/apngtools/apngtools-1.0-1.tar.xz
+2019/09/17 17:38:28 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/appres/appres-debuginfo/appres-debuginfo-1.0.5-1.tar.xz
+2019/09/17 17:38:35 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/appstream/appstream-debuginfo/appstream-debuginfo-0.11.7-1.tar.xz
+2019/09/17 17:38:41 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/appstream-glib/appstream-glib-debuginfo/appstream-glib-debuginfo-0.7.4-1.tar.xz
+2019/09/17 17:38:53 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aqbanking/aqbanking-debuginfo/aqbanking-debuginfo-5.7.8-1.tar.xz
+2019/09/17 17:38:55 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/argon2/argon2-debuginfo/argon2-debuginfo-20171227-1.tar.xz
+2019/09/17 17:39:30 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aria2/aria2-debuginfo/aria2-debuginfo-1.32.0-1.tar.xz
+2019/09/17 17:39:44 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ark/ark-debuginfo/ark-debuginfo-17.12.3-1.tar.xz
+2019/09/17 17:39:51 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/arpack/arpack-debuginfo/arpack-debuginfo-3.6.3-1.tar.xz
+2019/09/17 17:40:05 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/artikulate/artikulate-debuginfo/artikulate-debuginfo-17.12.3-1.tar.xz
+2019/09/17 17:40:28 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/arts/arts-debuginfo/arts-debuginfo-1.5.10-4.tar.xz
+2019/09/17 17:40:29 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/ascii/ascii-debuginfo/ascii-debuginfo-3.15-1.tar.xz
+2019/09/17 17:40:31 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/noarch/release/asciidoc/asciidoc-8.6.9-1.tar.xz
+2019/09/17 17:40:39 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aspell/aspell-debuginfo/aspell-debuginfo-0.60.6.1-1.tar.bz2
+2019/09/17 17:40:43 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/astyle/astyle-debuginfo/astyle-debuginfo-2.06-1.tar.xz
+2019/09/17 17:41:07 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/asymptote/asymptote-debuginfo/asymptote-debuginfo-2.49-1.tar.xz
+2019/09/17 17:41:09 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/at-spi2-atk/at-spi2-atk-debuginfo/at-spi2-atk-debuginfo-2.26.1-1.tar.xz
+2019/09/17 17:41:16 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/at-spi2-core/at-spi2-core-2.26.2-1.tar.xz
+2019/09/17 17:41:19 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/at-spi2-core/at-spi2-core-debuginfo/at-spi2-core-debuginfo-2.26.2-1.tar.xz
+2019/09/17 17:41:21 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/atk1.0/atk1.0-debuginfo/atk1.0-debuginfo-2.26.1-1.tar.xz
+2019/09/17 17:41:24 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/atkmm1.6/atkmm1.6-debuginfo/atkmm1.6-debuginfo-2.24.2-1.tar.xz
+2019/09/17 17:41:26 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/atomix/atomix-debuginfo/atomix-debuginfo-3.22.0-1.tar.xz
+2019/09/17 17:41:33 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/atril/atril-debuginfo/atril-debuginfo-1.20.1-1.tar.xz
+2019/09/17 17:41:35 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/atril/atril-doc/atril-doc-1.20.1-1.tar.xz
+2019/09/17 17:41:45 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/attica/attica-debuginfo/attica-debuginfo-0.4.2-1.tar.bz2
+2019/09/17 17:41:49 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/attr/attr-debuginfo/attr-debuginfo-2.4.48-2.tar.xz
+2019/09/17 17:41:55 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/audacious/audacious-debuginfo/audacious-debuginfo-3.9-1.tar.xz
+2019/09/17 17:42:07 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/audacious-plugins/audacious-plugins-debuginfo/audacious-plugins-debuginfo-3.9-2.tar.xz
+2019/09/17 17:43:09 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/audacity/audacity-debuginfo/audacity-debuginfo-2.2.1-1.tar.xz
+2019/09/17 17:43:20 Can't resolve `mirrors.metapeer.com'
+2019/09/17 17:43:29 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/autogen/autogen-debuginfo/autogen-debuginfo-5.18.16-1.tar.xz
+2019/09/17 17:43:30 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/automoc4/automoc4-debuginfo/automoc4-debuginfo-0.9.88-10.tar.bz2
+2019/09/17 17:43:32 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/autotrace/autotrace-0.31.1-19.tar.xz
+2019/09/17 17:43:34 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/autotrace/autotrace-debuginfo/autotrace-debuginfo-0.31.1-19.tar.xz
+2019/09/17 17:43:39 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/avahi/avahi-debuginfo/avahi-debuginfo-0.7-1.tar.xz
+2019/09/17 17:43:40 Downloaded C:\Users\Drona\Downloads/http%3a%2f%2fmirrors.metapeer.com%2fcygwin%2f/x86_64/release/aview/aview-1.3.0rc1-3.tar.xz
+2019/09/17 17:43:45 Ending cygwin install
