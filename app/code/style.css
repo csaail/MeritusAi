@@ -260,53 +260,24 @@ button {
 }
 
 
-/* just some content with arbitrary styles for explanation purposes */
-.modal {
-  /* width: 50%;
-  height: 50%;
-  line-height: 200px;
-  position: fixed;
-  top: 50%;
-  left: 50%; */
+.modal, .modal1 {
   width: 85%;
   height: fit-content;
   position: absolute;
   left: 50%;
   top: 50%;
+  color: #ddd;
   transform: translate(-50%, -50%);
-  /* margin-top: -100px;
-  margin-left: -150px; */
-  background-color: #f1c40f;
-  border-radius: 5px;
+  background-color: rgba(38, 171, 224, 0.3); /* Semi-transparent #26abe0 */
+  backdrop-filter: blur(10px); /* Frosted glass blur effect */
+  border-radius: 10px; /* Smooth rounded edges */
   text-align: center;
-  z-index: 101; /* 1px higher than the overlay layer */
+  z-index: 101; /* Ensure it's above the overlay layer */
   display: none;
-
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+  border: 1px solid black;
 }
 
-
-.modal1 {
-  /* width: 50%;
-  height: 50%;
-  line-height: 200px;
-  position: fixed;
-  top: 50%;
-  left: 50%; */
-  width: fit-content;
-  height: fit-content;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  /* margin-top: -100px;
-  margin-left: -150px; */
-  background-color: #f1c40f;
-  border-radius: 5px;
-  text-align: center;
-  z-index: 101; /* 1px higher than the overlay layer */
-  display: none;
-
-}
 
 
 #confirm-button {

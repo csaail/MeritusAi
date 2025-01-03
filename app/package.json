@@ -17,6 +17,7 @@
   "author": "Meritus AI",
   "license": "CC0-1.0",
   "dependencies": {
+    "@electron/remote": "^2.1.2",
     "dialogs": "^2.0.1",
     "electron-default-menu": "^1.0.1",
     "jquery": "^3.4.1",
@@ -45,5 +46,3 @@
     }
   }
 }
-
-

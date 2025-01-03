@@ -17,7 +17,6 @@
   }
 
   void plutoLoop () {
-    Command.land(105);
   }
 
   void onLoopFinish() {

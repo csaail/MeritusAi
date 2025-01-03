@@ -8,6 +8,8 @@
   <script>var $ = jQuery = require('jquery')
  			    require('jquery-ui-dist/jquery-ui')</script>
   <script src="../plutoblocks_projects.js"></script>
+  <script src="../compressed/blockly_compressed.js"></script>
+  <script src="./code.js"></script>
 </head>
 <body>
     <div class="overlay"></div>
@@ -15,8 +17,19 @@
       <img class="pluto_logo" src = "../media/Picture1.png" width="200">
       <img class="drona_logo" src = "../media/Meritus AI Logo.svg" width="100">
     </div>
+
+
     <div class="project_container">
-      <p style="font-size: 24px; font-weight: bold;"><b> Projects > </b></p>
+      <p style="font-size: 24px; font-weight: bold;"><b>  Projects</b>
+        <img id="importIcon" src="../media/folder.png" width="24" height="24" class="import-icon"
+          onclick="Projects.importProject()" title="Import Projects">
+        <img id="sortIcon" src="../media/sort.png" width="24" height="24" class="sort-icon" onclick="toggleDropdown()"
+          title="Sort Projects">
+      <div id="dropdown" class="dropdown">
+        <a href="#" class="dropdown-content" onclick="Projects.sortProjects('time')">Sort by Time</a>
+        <a href="#" class="dropdown-content" onclick="Projects.sortProjects('name')">Sort by Name</a>
+      </div>
+    </p>
       <div id="projects" class="project_cards">
         <div class="card" id="new_project_card">
           <img src='../media/add_project_48dp.png' width="48" height="48">
