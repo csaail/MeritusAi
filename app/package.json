@@ -17,7 +17,6 @@
   "author": "Meritus AI",
   "license": "CC0-1.0",
   "dependencies": {
-    "@electron/remote": "^2.1.2",
     "dialogs": "^2.0.1",
     "electron-default-menu": "^1.0.1",
     "jquery": "^3.4.1",
@@ -27,22 +26,28 @@
   },
   "devDependencies": {
     "electron": "^6.1.12",
-    "electron-builder": "^25.1.8",
-    "electron-packager": "^17.1.2"
+    "electron-builder": "^22.9.1"
   },
-  "build": {
-    "appId": "com.meritusai.nxgblock",
-    "productName": "NXGBlock",
-    "directories": {
-      "output": "dist"
-    },
-    "files": [
-      "**/*",
-      "public/**/*"
-    ],
-    "win": {
-      "target": "nsis",
-      "icon": "app_icon.ico"
+"build": {
+  "appId": "com.meritusai.nxgblock",
+  "productName": "NXGBlock",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "**/*",
+    "public/**/*"
+  ],
+  "extraFiles": [
+    {
+      "from": "pluto_project",  
+      "to": "pluto_project"     
     }
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "app_icon.ico"
   }
+}
+
 }
