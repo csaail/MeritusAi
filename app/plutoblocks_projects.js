@@ -64,20 +64,22 @@ Projects.renderProjects = function (sortBy) {
           <b class="project_name">${arrProjectData[i][1].name}</b>
           <p>${timeDifference(new Date(), new Date(arrProjectData[i][1].date))}</p>
           <div class="iconsContainer" id="icons_${i}">
-            <div class="deleteProject" id="deleteIcon_${i}" 
-            style="margin-right: 10px;">
-              <img src="../media/ic_delete_24dp.png" width="21" height="21" 
-              style="display: none;" 
-              onclick="Projects.projectDelete(event, '${arrProjectData[i][0]}', 
-              '${encodeURIComponent(arrProjectData[i][1].name)}', 
-              'project_card_${i}')">
+            
+          <div class="deleteProject" id="deleteIcon_${i}" style="margin-right: 10px;">
+  <img src="../media/ic_delete_24dp.png" width="21" height="21" 
+  style="display: none;" 
+  onclick="event.stopPropagation(); Projects.projectDelete('${arrProjectData[i][0]}', 
+  '${encodeURIComponent(arrProjectData[i][1].name)}', 
+  'project_card_${i}');">
+</div>
 
-            </div>
             <div class="exportProject" id="exportIcon_${i}" style="margin-right: 10px;">
-              <img src="../media/export.png" width="21" height="21" style="display: none;" onclick="Projects.exportProject(event, '${arrProjectData[i][0]}', '${encodeURIComponent(arrProjectData[i][1].name)}')">
+              <img src="../media/export.png" width="21" height="21" style="display: none;" 
+              onclick="Projects.exportProject(event, '${arrProjectData[i][0]}', '${encodeURIComponent(arrProjectData[i][1].name)}')">
             </div>
             <div class="duplicateProject" id="duplicateIcon_${i}">
-              <img src="../media/duplicate.png" width="21" height="21" style="display: none;" onclick="Projects.duplicateProject(event, '${arrProjectData[i][0]}', '${encodeURIComponent(arrProjectData[i][1].name)}', 'project_card_${i}')">
+              <img src="../media/duplicate.png" width="21" height="21" style="display: none;" 
+              onclick="Projects.duplicateProject(event, '${arrProjectData[i][0]}', '${encodeURIComponent(arrProjectData[i][1].name)}', 'project_card_${i}')">
             </div>
           </div>
         </div>`;
@@ -85,34 +87,54 @@ Projects.renderProjects = function (sortBy) {
     }
   };
 
+
 };
 
-Projects.projectDelete = function (event, projectId, projectName, parentId) {
-  event.stopPropagation(); // Prevent parent card click
+Projects.projectDelete = function (projectId, projectName, parentId) {
   const options = {
     type: 'question',
     buttons: ['Yes', 'Cancel'],
     defaultId: 0,
-    title: 'PlutoBlocks',
-    message: 'Do you want to delete "' + decodeURIComponent(projectName) + '"?',
+    title: 'NXGBlocks',
+    message: `Do you want to delete "${decodeURIComponent(projectName)}"?`,
   };
 
-  const { dialog, getCurrentWindow } = require('@electron/remote');
-  
-  dialog.showMessageBox(getCurrentWindow(), options).then((response) => {
-    if (response.response === 0) { // 0: Yes
-      localStorage.removeItem(projectId); // Remove project from storage
+  const { dialog } = require('electron').remote;
+
+  dialog.showMessageBox(remote.getCurrentWindow(), options, (response) => {
+    if (response === 0) { // User clicked 'Yes'
+      // Log the projectId, projectName, and parentId
+      console.log(`Project ID: ${projectId}`);
+      console.log(`Parent ID: ${parentId}`);
+      console.log(`Project Name: ${decodeURIComponent(projectName)}`);
+
+      // Remove the project from localStorage
+      localStorage.removeItem(projectId);
+
+      // Try to remove the selected project card
       const parent = document.getElementById(parentId);
-      if (parent) {
-        parent.parentNode.removeChild(parent); // Remove card from DOM
+
+      if (parent && parent.parentNode) {
+        parent.parentNode.removeChild(parent);
+        console.log(`Element with ID ${parentId} removed successfully.`);
+
+        // Show "Removed successfully" popup
+        dialog.showMessageBox({
+          type: 'info',
+          buttons: ['OK'],
+          title: 'Success',
+          message: `The project "${decodeURIComponent(projectName)}" has been removed successfully.`,
+        });
       } else {
-        console.error('Parent element not found:', parentId);
+        console.error(`Element with ID ${parentId} not found or has no parent.`);
       }
     }
-  }).catch((err) => {
-    console.error('Error showing dialog:', err);
   });
+
+  // Prevent further propagation of the event
+  if (event) event.stopPropagation();
 };
+
 
 
 
@@ -214,6 +236,7 @@ Projects.importProject = function () {
         console.error('Error importing project:', error);
       }
     };
+    location.reload()
     reader.readAsText(file);
   };
   input.click();
@@ -327,37 +350,8 @@ window.onclick = function (event) {
 }
 
 
-function openPopup() {
-  document.getElementById('popupOverlay').style.display = 'block';
-}
-function openPopup1() {
-  document.getElementById('popupOverlay1').style.display = 'block';
-}
-function openPopup2() {
-  document.getElementById('popupOverlay2').style.display = 'block';
-}
-
-function closePopup() {
-  document.getElementById('popupOverlay').style.display = 'none';
-  document.getElementById('popupOverlay1').style.display = 'none';
-  document.getElementById('popupOverlay2').style.display = 'none';
-}
 
 window.addEventListener('load', Projects.init);
 
-function openSideMenu() {
-  document.getElementById("sideMenu").style.width = "250px";
-  setTimeout(function () {
-    document.querySelector(".menu-icon").querySelector('img').style.display = "none";
-  }, 100); // 500 milliseconds = 0.5 seconds
-  document.querySelector('.overlay').style.display = 'block';
-}
 
-function closeSideMenu() {
-  document.getElementById("sideMenu").style.width = "0";
-  setTimeout(function () {
-    document.querySelector(".menu-icon").querySelector('img').style.display = "block";
-  }, 300)
-  document.querySelector('.overlay').style.display = 'none';
-}
 
